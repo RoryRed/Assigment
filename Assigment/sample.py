@@ -1,5 +1,5 @@
 
-def sqrt(number, guess=5000000):
+def sqrt(number, guess=500):
     a = float(number) 
     for i in range(guess): 
         number = 0.5 * (number + a / number) 
