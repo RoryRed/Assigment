@@ -48,25 +48,66 @@ a diction was created which between 0-4 creates the response "Yes, unfortunately
 y uses the dictionary to get the approiate response for the current weekday
 print(y) returns this response
 
+task6 
+square root.py	
+Goal:Write a program that takes a positive floating-point number as input and outputs an approximation of its square root. 
+You should create a function called sqrt that does this.
+
+the easiest way to get the square root of a function in phyton is to create an input variable
+eg x= float(input("Enter any number: ") 
+z = round(x**0.5)
+print(z)
+squareroot.py
+numpy was imported to resolve a type tuple error that occured when number of iteration was called 
+creates a function  sqrt  the number is passed through the loop 20000 times this number was chosen to impove accuraccy 
+line 18 and 19 allows the user to input a number that is then rounded to one decimal place
+line 20 calls the function to act on the inputed number 
+line 22 rounds that number to one decimal place 
+line 23 output the square root and inital number in the desired form mat 
+
+
+
+#return number exits the loop 
+
+
+
+references
+https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/chap06/sqrt-1.html
+#references
+#http://danielhomola.com/2016/02/09/newtons-method-with-10-lines-of-python/
+#https://www.youtube.com/watch?v=2GrfaB88w4M&t=168s
+#https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/chap06/sqrt-1.html
+#https://www.youtube.com/watch?v=szQUIRPrAgQ
 
 
 task 7
 es.py 
+goal :Write a program that reads in a text file and outputs the number of e's it contains. 
+The program should take the filename from an argument on the command line.
+import sys is used to allow the filename to be selected from an argument in the command line
 
+sys argave contains the the comand line argument passed to the script
+1 is used to represent the number of arguments.the open command opens the script
+f.read reads the script
+j.count counts the number of occurences of the letter e in the file 
+f.close -closes the file
 
+references
+https://www.pythonforbeginners.com/system/python-sys-argv
 
+task eight 
+plot.py
+goal:Write a program that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+linspace sets a range of values 0 to 4 with 100 intervals
 
+gx gives the square of x
+hx gets the cube of x
+plt.plot is used to plot x to the power of 1,2 and 3
+plt.legend creates a legend with respect for each function with respect to there label
+plt.xlabel titles the x axis 
+plt.ylabel titles the y axis 
+plt.show displays the graph
 
-
-
-
-
-
-
-
-
-
-task6
  
 
 
